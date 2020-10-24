@@ -1,0 +1,25 @@
+.prices-list {
+  &__dialog {
+    min-width: 600px;
+  }
+  &__title {
+    color: #ed0791;
+  }
+  &__job-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: (0, 0, 0, 0.1)
+  }
+  &__circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ed0791;
+  }
+  &__job {
+    margin: 0 5px
+  }
+}

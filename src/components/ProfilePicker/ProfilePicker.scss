@@ -1,0 +1,152 @@
+.profile-picker-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picker {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+  &__title {
+    color: white!important;
+    font-weight: 100;
+  }
+  &__description {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 70%;
+  }
+  &__button > .md-ripple {
+    color: white;
+    background-color: #ed0791;
+  }
+  &__inputs-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.job-image {
+
+}
+
+.md-dialog {
+  max-width: 768px;
+}
+
+.user-field {
+  width: 45%;
+}
+
+.dialog-title {
+  color: blueviolet;
+}
+
+.dialog-content-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.profile-picker__dialog-checkbox-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+.profile-picker__dialog-checkbox-container.md-field:after {
+  height: 0!important;
+}
+
+.profile-picker__dialog-jobs-with-prices-container {
+  display: flex;
+  width: 100%;
+}
+
+.profile-picker__dialog-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile-picker__prices-field {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.profile-picker__dialog {
+  width: 700px;
+}
+
+.options {
+  width: 700px;
+}
+
+.profile-picker__checkbox.md-checkbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 250px
+}
+
+.profile-picker__dialog-pick-photo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picker__dialog-pick-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.profile-picker__dialog-pick-photo-text {
+  color: #2196F3;
+  font-weight: bold;
+  margin: 7px 0 13px 0;
+  cursor: pointer;
+}
+
+@keyframes  moveInLeft{
+
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes  moveInRight{
+
+  0%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}

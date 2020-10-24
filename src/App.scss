@@ -1,0 +1,49 @@
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+        primary: #8B2DE2, // The primary color of your application
+        accent: #2196F3 // The accent or secondary color
+));
+
+@import "~vue-material/dist/theme/all";
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.md-checkbox {
+  display: flex;
+}
+
+.md-field label {
+  top: 0!important;
+}
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)!important;
+  background-color: #F5F5F5!important;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px!important;
+  height: 10px!important;
+  background-color: #F5F5F5!important;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: #ed0791!important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+          color-stop(.5, rgba(255, 255, 255, .2)),
+          color-stop(.5, transparent), to(transparent))!important;
+}
+

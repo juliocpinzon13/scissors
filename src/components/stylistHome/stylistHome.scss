@@ -1,0 +1,139 @@
+.stylist-home {
+  width: 100vw;
+  height: 100vh;
+  &__top-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ed0791;
+    color: white;
+  }
+  &__top-bar-title {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+  &__top-bar-sub-title {
+    font-size: 18px;
+    font-family: "Courgette", sans-serif;
+  }
+  &__top-bar-menu {
+    max-height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  &__main-info {
+    width: 100%;
+    height: calc(100% - 50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffdbee;
+  }
+  &__card {
+    width: 65vw;
+    height: calc(100vh - 100px);
+  }
+  &__stylist-info-result {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+  }
+  &__stylist-image {
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    border: 2px solid #9c1cff;
+  }
+  &__stylist-prices {
+    text-decoration: underline;
+    color: #9c1cff;
+    cursor: pointer;
+  }
+  &__stylist-jobs-container {
+    display: flex;
+  }
+  &__stylist-job-icon {
+    margin-right: 5px;
+    max-height: 15px;
+  }
+  &__stylist-job {
+    color: rgba(0,0,0,0.8);
+  }
+  &__stylist-name {
+    font-size: 17px;
+    color: rgba(0,0,0,0.8);
+    font-weight: bold;
+    text-align: center;
+  }
+  &__stylist-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__stylist-work {
+    width: 100%;
+  }
+  &__stylist-work-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+  }
+  &__work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 20px;
+  }
+  &__work-image {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px;
+  }
+  &__work-title {
+    font-size: 17px;
+    color: #9c1cff;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__work-price {
+    font-size: 15px;
+    color: rgba(0,0,0,0.8);
+  }
+  &__stylist-work-title {
+    color: #ed0791;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  &__stylist-work-location-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__circle {
+    width: 5px;
+    height: 5px;
+    background-color: #ed0791;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  &__jobs-title {
+    margin-top: 10px;
+  }
+  &__stylist-new-work-title {
+    min-width: 400px;
+  }
+}
+

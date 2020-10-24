@@ -1,0 +1,61 @@
+.scissors {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, rgba(#9c1cff, 0.5), rgba(0, 0, 51, 0.8)), url("../../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+
+  &__dialog-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__log-in-title {
+    text-align: center;
+  }
+  &__dialog {
+    min-width: 350px;
+  }
+  &__pick-profile-log-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+}
+
+.info-container {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40vw;
+
+  &__title {
+    color: white !important;
+  }
+  &__description {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  &__sign-up > .md-ripple {
+    color: white;
+    background-color: #ed0791;
+  }
+  &__log-in {
+    color: white !important;
+  }
+}
+
+.user-field-log-ing {
+  width: 90%;
+}

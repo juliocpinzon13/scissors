@@ -1,0 +1,136 @@
+.client-home {
+  width: 100vw;
+  height: 100vh; }
+  .client-home__top-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ed0791;
+    color: white; }
+  .client-home__top-bar-title {
+    font-size: 40px;
+    margin-left: 10px; }
+  .client-home__top-bar-sub-title {
+    font-size: 18px;
+    font-family: "Courgette", sans-serif; }
+  .client-home__top-bar-menu {
+    max-height: 25px;
+    margin-right: 10px;
+    cursor: pointer; }
+  .client-home__main-info {
+    width: 100%;
+    height: calc(100% - 50px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffdbee; }
+  .client-home__results {
+    width: 70vw;
+    height: calc(100% - 90px); }
+  .client-home__filters {
+    width: 20vw;
+    height: calc(100% - 90px); }
+  .client-home__result-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px; }
+  .client-home__stylist-info-result {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify; }
+  .client-home__stylist-image {
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    border: 2px solid #9c1cff; }
+  .client-home__stylist-prices {
+    text-decoration: underline;
+    color: #9c1cff;
+    cursor: pointer; }
+  .client-home__stylist-jobs-container {
+    display: flex; }
+  .client-home__stylist-job-icon {
+    margin-right: 5px;
+    max-height: 15px; }
+  .client-home__stylist-job {
+    color: rgba(0, 0, 0, 0.8); }
+  .client-home__stylist-name {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-align: center; }
+  .client-home__stylist-work {
+    width: calc(100% - 150px); }
+  .client-home__stylist-work-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto; }
+  .client-home__work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 20px; }
+  .client-home__work-image {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px; }
+  .client-home__work-title {
+    font-size: 17px;
+    color: #9c1cff;
+    font-weight: bold; }
+  .client-home__work-price {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8); }
+  .client-home__result-content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; }
+  .client-home__filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+  .client-home__filter-title {
+    color: #9c1cff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 17px; }
+  .client-home__filter-title-location, .client-home__hour-container {
+    color: #9c1cff;
+    font-weight: bold;
+    font-size: 17px; }
+  .client-home__hour-container {
+    width: 40%; }
+  .client-home__filter-title-location {
+    margin-top: 10px; }
+  .client-home__hour-and-time-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+
+.close-session {
+  cursor: pointer; }
+
+.card-title {
+  color: #ed0791; }
+
+.checkbox {
+  margin: 0; }
+
+/*# sourceMappingURL=clientHome.css.map */

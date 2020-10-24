@@ -1,0 +1,20 @@
+.prices-list__dialog {
+  min-width: 600px; }
+.prices-list__title {
+  color: #ed0791; }
+.prices-list__job-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: 0, 0, 0, 0.1; }
+.prices-list__circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ed0791; }
+.prices-list__job {
+  margin: 0 5px; }
+
+/*# sourceMappingURL=pricesList.css.map */
